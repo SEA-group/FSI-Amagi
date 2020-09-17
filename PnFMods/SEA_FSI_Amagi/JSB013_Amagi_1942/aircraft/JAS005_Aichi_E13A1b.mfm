@@ -1,0 +1,17 @@
+<JAS005_Aichi_E13A1b.mfm>
+	<materialKind>	0	</materialKind>
+	<collisionFlags>	0	</collisionFlags>
+	<fx>	shaders/std_effects/PBS_emissive.fx	</fx>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/aircraft/JAS005_Aichi_E13A1b_mg.tga	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/aircraft/JAS005_Aichi_E13A1b_a.tga	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/aircraft/JAS005_Aichi_E13A1b_n.tga	</Texture>
+	</property>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/aircraft/default_ao.tga	</Texture>
+	</property>
+</JAS005_Aichi_E13A1b.mfm>

@@ -1,0 +1,17 @@
+<JF027_Periscope_2.mfm>
+	<fx>	shaders/std_effects/PBS_ship.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<materialKind>	0	</materialKind>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/finder/JF027_Periscope_2_mg.tga	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/finder/JF027_Periscope_2_n.tga	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/finder/JF027_Periscope_2_a.tga	</Texture>
+	</property>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/finder/default_ao.tga	</Texture>
+	</property>
+</JF027_Periscope_2.mfm>

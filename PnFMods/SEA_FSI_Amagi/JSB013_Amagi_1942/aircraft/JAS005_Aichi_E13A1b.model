@@ -1,1 +1,9 @@
-<JAS005_Aichi_E13A1b.model><exporter>1.6</exporter><parent>PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/aircraft/JAS005_Aichi_E13A1b_lod1</parent><extent>5.0000</extent><materialNames /><castsShadow>true</castsShadow><nodefullVisual>PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/aircraft/JAS005_Aichi_E13A1b</nodefullVisual><metaData>Wargaming | Lesta Studio</metaData></JAS005_Aichi_E13A1b.model>
+<JAS005_Aichi_E13A1b.model>
+	<exporter>	1.6	</exporter>
+	<parent>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/aircraft/lods/JAS005_Aichi_E13A1b_lod1	</parent>
+	<extent>	5.0000	</extent>
+	<materialNames />
+	<castsShadow>	true	</castsShadow>
+	<nodefullVisual>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/aircraft/JAS005_Aichi_E13A1b	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</JAS005_Aichi_E13A1b.model>

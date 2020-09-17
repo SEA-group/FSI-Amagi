@@ -1,0 +1,17 @@
+<JAF017_Mitsubishi_A6M2_N.mfm>
+	<materialKind>	0	</materialKind>
+	<collisionFlags>	0	</collisionFlags>
+	<fx>	shaders/std_effects/PBS_emissive.fx	</fx>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/aircraft/JAF017_Mitsubishi_A6M2_N_mg.tga	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/aircraft/JAF017_Mitsubishi_A6M2_N_a.tga	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/aircraft/JAF017_Mitsubishi_A6M2_N_n.tga	</Texture>
+	</property>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/aircraft/default_ao.tga	</Texture>
+	</property>
+</JAF017_Mitsubishi_A6M2_N.mfm>

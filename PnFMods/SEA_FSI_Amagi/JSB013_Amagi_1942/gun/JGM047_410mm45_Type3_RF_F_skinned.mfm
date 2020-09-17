@@ -1,0 +1,20 @@
+<JGM047_410mm45_Type3_RF_F_skinned.mfm>
+	<fx>	shaders/std_effects/PBS_skinned_emissive.fx	</fx>
+	<property>	emissivePower
+		<Float>	5.00000	</Float>
+	</property>
+	<materialKind>	0	</materialKind>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/gun/JGM047_410mm45_Type3_RF_F_mg.tga	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/gun/JGM047_410mm45_Type3_RF_F_a.tga	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/gun/JGM047_410mm45_Type3_RF_F_n.tga	</Texture>
+	</property>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/gun/default_ao.tga	</Texture>
+	</property>
+</JGM047_410mm45_Type3_RF_F_skinned.mfm>
