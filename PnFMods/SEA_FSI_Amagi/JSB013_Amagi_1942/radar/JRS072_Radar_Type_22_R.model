@@ -1,23 +1,8 @@
 <JRS072_Radar_Type_22_R.model>
-	<action>
-		<name>	idle	</name>
-		<animation>	JRS072_Radar_Type_22_R	</animation>
-		<filler>	true	</filler>
-	</action>
-	<extent>	3.000000	</extent>
-	<parent>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/radar/lods/JRS072_Radar_Type_22_R_lod1	</parent>
-	<materialNames />
-	<visibilityBox>
-		<min>	-0.038520 0.000223 -0.058992	</min>
-		<max>	0.050137 0.094050 0.069463	</max>
-	</visibilityBox>
-	<animation>
-		<name>	JRS072_Radar_Type_22_R	</name>
-		<frameRate>	30.000000	</frameRate>
-		<nodes>	content/animation/common/JRS072_Radar_Type_22_R	</nodes>
-	</animation>
-	<castsShadow>	false	</castsShadow>
-	<exporter>	1.5	</exporter>
-	<nodefullVisual>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/radar/JRS072_Radar_Type_22_R	</nodefullVisual>
+	<visual>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/radar/JRS072_Radar_Type_22_R.visual	</visual>
+	<animations>
+		<animation>	content/animation_state_machines/legacy/gameplay/JRS072_Radar_Type_22_R/JRS072_Radar_Type_22_R.ssm	</animation>
+	</animations>
+	<dyes />
 	<metaData>	Wargaming | Lesta Studio	</metaData>
 </JRS072_Radar_Type_22_R.model>

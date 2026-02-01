@@ -1,94 +1,168 @@
 <JRS071_Radar_Type_22_L.visual>
-	<boundingBox>
-		<min>	-0.025434 0.000223 -0.057284	</min>
-		<max>	0.025416 0.094050 0.067731	</max>
-	</boundingBox>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.000000 0.000000 0.000000	</row0>
-			<row1>	0.000000 1.000000 0.000000	</row1>
-			<row2>	0.000000 0.000000 1.000000	</row2>
-			<row3>	0.000000 0.000000 0.000000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	Root	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
-				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
 			</transform>
 			<node>
-				<identifier>	Rotate_Y	</identifier>
+				<identifier>	Root	</identifier>
 				<transform>
 					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
 					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
 					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.011873 0.033350 0.020010 1.000000	</row3>
+					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
 				</transform>
 				<node>
-					<identifier>	Rotate_Y_BlendBone	</identifier>
+					<identifier>	Rotate_Y	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.011873 0.033350 0.020010 1.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Rotate_Y_BlendBone	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+							<row2>	0.000000 0.000000 -1.000000 0.000000	</row2>
+							<row3>	-0.011873 -0.033350 -0.020010 1.000000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Rotate_Y1	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	-0.011072 0.033350 -0.020010 1.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Rotate_Y1_BlendBone	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+							<row2>	0.000000 0.000000 -1.000000 0.000000	</row2>
+							<row3>	0.011072 -0.033350 0.020010 1.000000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Root_BlendBone	</identifier>
 					<transform>
 						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
 						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
 						<row2>	0.000000 0.000000 -1.000000 0.000000	</row2>
-						<row3>	-0.011873 -0.033350 -0.020010 1.000000	</row3>
+						<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
 					</transform>
 				</node>
 			</node>
 			<node>
-				<identifier>	Rotate_Y1	</identifier>
+				<identifier>	JRS071_Radar_Type_22_L	</identifier>
 				<transform>
 					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
 					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
 					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	-0.011072 0.033350 -0.020010 1.000000	</row3>
-				</transform>
-				<node>
-					<identifier>	Rotate_Y1_BlendBone	</identifier>
-					<transform>
-						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-						<row2>	0.000000 0.000000 -1.000000 0.000000	</row2>
-						<row3>	0.011072 -0.033350 0.020010 1.000000	</row3>
-					</transform>
-				</node>
-			</node>
-			<node>
-				<identifier>	Root_BlendBone	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 -1.000000 0.000000	</row2>
 					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
 				</transform>
 			</node>
 		</node>
-		<node>
-			<identifier>	JRS071_Radar_Type_22_L	</identifier>
-			<transform>
-				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-			</transform>
-		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
-		<node>	Root_BlendBone	</node>
-		<node>	Rotate_Y_BlendBone	</node>
-		<node>	Rotate_Y1_BlendBone	</node>
-		<geometry>
-			<vertices>	JRS071_Radar_Type_22_LShape.vertices	</vertices>
-			<primitive>	JRS071_Radar_Type_22_LShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMA_PBS_radar	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/radar/JRS007_Radar_Type_22_skinned.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
+	<boundingBox>
+		<min>	-0.025434 0.000223 -0.057284	</min>
+		<max>	0.025416 0.094050 0.067731	</max>
+	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	JRS071_Radar_Type_22_LShape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Root_BlendBone	</node>
+				<node>	Rotate_Y_BlendBone	</node>
+				<node>	Rotate_Y1_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMA_PBS_radar	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/radar/JRS007_Radar_Type_22_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	JRS071_Radar_Type_22_L_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Root_BlendBone	</node>
+				<node>	Rotate_Y_BlendBone	</node>
+				<node>	Rotate_Y1_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMA_PBS_radar	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/radar/JRS007_Radar_Type_22_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	JRS071_Radar_Type_22_L_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Root_BlendBone	</node>
+				<node>	Rotate_Y_BlendBone	</node>
+				<node>	Rotate_Y1_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMA_PBS_radar	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/radar/JRS007_Radar_Type_22_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	JRS071_Radar_Type_22_L_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Root_BlendBone	</node>
+				<node>	Rotate_Y_BlendBone	</node>
+				<node>	Rotate_Y1_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMA_PBS_radar	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Amagi/JSB013_Amagi_1942/radar/JRS007_Radar_Type_22_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	3.000000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	JRS071_Radar_Type_22_LShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	8.000000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	JRS071_Radar_Type_22_L_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	15.000000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	JRS071_Radar_Type_22_L_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	30.000000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	JRS071_Radar_Type_22_L_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </JRS071_Radar_Type_22_L.visual>
